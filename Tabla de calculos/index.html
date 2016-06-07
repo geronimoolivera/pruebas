@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Usando DOM</title>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<h1>Calculo Compra</h1>
+
+<table border="1" style="width:300px">
+ <tr>
+  <th>Producto</th>
+  <th>Precio</th> 
+  <th>Cantidad</th>
+  <th>Subtotal</th>
+ </tr>
+ <tr>
+  <td>Camisa</td>
+  <td><input type="text" id="precio1" value="1500" disabled=""></td> 
+  <td><input type="text" id="cantidad1" value=""></td>
+  <td><input type="text" id="subtotal1" value="" disabled=""></td>
+ </tr>
+  <tr>
+  <td>Gorra</td>
+  <td><input type="text" id="precio2" value="750" disabled=""></td> 
+  <td><input type="text" id="cantidad2" value=""></td>
+  <td><input type="text" id="subtotal2" value="" disabled=""></td>
+ </tr>
+  <tr>
+  <td>Zapatos</td>
+  <td><input type="text" id="precio3" value="2100" disabled=""></td> 
+  <td><input type="text" id="cantidad3" value=""></td>
+  <td><input type="text" id="subtotal3" value="" disabled=""></td>
+ </tr>
+ <tr>
+  <td>Pantalon</td>
+  <td><input type="text" id="precio4" value="1900" disabled=""></td> 
+  <td><input type="text" id="cantidad4" value=""></td>
+  <td><input type="text" id="subtotal4" value="" disabled=""></td>
+ </tr>
+</table>
+<br>
+<b>Total Compra:</b> <input type="text" id="totalCompra" disabled="">
+<br>
+<br>
+<button onclick="calcularSubtotales()">Calcular Subtotales</button>
+<button onclick="calcularTotal()">Calcular Total</button>
+</body>
+</html>
