@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>POO Training 1</title>
+</head>
+<body>
+<p id="caract"></p>
+<button onclick="miFuncion()">Mostrar propiedades</button>
+<script>
+	function Producto (codigo, nombre, cantidad, precio) { //Creacion del objeto Producto
+		this.codigo = codigo;				//Agregamos los atributos del objeto con los parametros.
+		this.nombre = nombre;
+		this.cantidad = cantidad;
+		this.precio = precio;
+
+		//Metodo mostrar() propio de la clase Producto
+		this.mostrar = function(){
+			document.getElementById("caract").innerHTML = "Detalles del producto: <br>" + "Codigo " + this.codigo + "<br>" + "Nombre: " + this.nombre + "<br>" + "Cantidad: " + this.cantidad + "<br>" + "Precio" + this.precio;
+		};
+	}
+	var producto = new Producto ("F21CB01", "VPS XeonE7", 1, 67); //Creamos un objeto
+
+	function miFuncion(argument){
+		producto.mostrar(); //Mostramos el objeto creado
+	}
+</script>
+</body>
+</html>
