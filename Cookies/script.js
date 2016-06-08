@@ -26,3 +26,8 @@ function VerificarCookie(){
 		}
 	}
 }
+function edadFutura(){
+	var stringEdad = obtenerCookie("edad"),
+	edad = Number(stringEdad);
+	document.getElementById("edadfutura").innerHTML = "En un futuro tendras: "+ (edad+5) +" de edad";
+}
