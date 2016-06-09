@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Evaluacion Final DOM</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="contenedor">
+<h1>Registro de Alumnos</h1>
+<form id="registro">
+<div class="campos">Codigo: <input type=number id="codigo" min="1" max="999"></div>
+<div class="campos">Nombre: <input type=text id="nombre" size="16" /></div>
+<div class="campos">Nota: <input type=number id="nota" min="1" max="12"/></div>
+</form>
+<div id="alta">
+<button id="boton1">Enviar datos</button>
+<button type="reset" form="registro">Limpiar datos</button>
+</div>
+<div id="funciones">
+<button id="boton2">Promedio</button>
+<button id="boton3">Menor Nota</button>
+<button id="boton4">Mayor Nota</button>
+</div>
+</div>
+<div id="contenedor-tabla">
+<h1>Tabla de Alumnos</h1>
+<table align="center" id="tabla">
+<tr><th>Codigo</th><th>Nombre</th><th>Nota</th></tr>
+</table>
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/eventos.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+	background-color: #a3a3c2;
+}
+h1{
+	color: #0040ff;
+}
+#contenedor{
+	width: 23%;
+	height: 220px;
+	margin-left: 38%;
+	background-color: gray;
+	padding: 10px 10px 10px 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#alta{
+	margin-top: 10px;
+	margin-left: 18%;
+	margin-bottom: 10px;
+}
+#funciones{
+	margin-left: 7%;
+}
+input, button{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+input:focus { 
+    background-color: #a3a3c2;
+}
+.campos{
+	color: #0040ff;
+	font-family: Georgia;
+	font-weight: bold;
+}
+#codigo{
+	margin-left: 9px;
+}
+#nombre{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#nota{
+	margin-left: 28px;
+}
+#contenedor-tabla{
+	width: 39%;
+	margin-top: 3%;
+	margin-left: 30%;
+	background-color: gray;
+	padding: 10px 10px 10px 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+table {
+	width: 100%;
+}
+table, th, td {
+   border: 1px solid black;
+}
+th {
+    height: 50px;
+	font-family: Georgia;
+	font-weight: bold;
+    font-size: 21px;
+    background-color: #a3a3c2;
+    color: #0040ff;
+}
+td{
+	font-family: Georgia;
+	font-weight: bold;
+}
