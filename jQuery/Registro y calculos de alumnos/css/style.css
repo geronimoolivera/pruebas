@@ -1,0 +1,75 @@
+/* CSS para efectos */
+#ayuda-id, #ayuda-nombre, #ayuda-nota, #calculos, #boton7 {
+	display: none;
+}
+.highlight {
+	background-color: lightblue;
+}
+/* CSS para el HTML */
+body {
+	background-color: gray;
+}
+#registro{
+	width: 42%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
+	border-radius: 136px 0px 136px 136px;
+    -moz-border-radius: 136px 0px 136px 136px;
+    -webkit-border-radius: 136px 0px 136px 136px;
+    border: 0px solid #000000;
+}
+h1{
+	text-align: center;
+}
+span {
+	font-size: 10px;
+}
+label{
+	margin-left: 150px;
+	font-weight: bold;
+}
+#id {
+	margin-left: 44px;
+	margin-bottom: 5px
+}
+#nota {
+	margin-top: 5px;
+	margin-left: 24px;
+	margin-bottom: 5px;
+}
+button, #boton6, #boton7{
+	margin-left: 10px;
+	border-radius: 53px 53px 53px 53px;
+}
+#b-principales{
+	margin-left: 115px;
+	padding-bottom: 5px;
+}
+#calculos {
+	margin-left: 85px;
+	padding-bottom: 5px;
+}
+#tabla{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+td, th {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: lightblue;
+}
+th {
+    height: 40px;
+}
+td {
+	padding: 10px 10px 10px 10px;
+}
+.editores{
+	width: 120px;
+	margin-right: -70px;
+}

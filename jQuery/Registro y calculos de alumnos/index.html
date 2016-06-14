@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"> <!-- Para que se renderice de igual forma en todos los navegadores -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+</head>
+<body>
+<div id="registro">
+	<h1>Registro de Alumnos</h1>
+	<form id="formulario">
+	<label>ID: </label>
+	<input type="number" id="id" name="id"><span id="ayuda-id"> ID del Alumno.</span><br>
+	<label>Nombre: </label>
+	<input type="text" id="nombre" name="nombre"><span id="ayuda-nombre"> Nombre del Alumno.</span><br>
+	<label>Nota: </label>
+	<input type="number" id="nota" name="nota"><span id="ayuda-nota"> Nota del 1 al 12.</span>
+	</form>
+<div id="b-principales">
+	<button form="formulario" id="boton1">Guardar</button>
+	<button id="boton2">Limpiar</button>
+	<input type="button" id="boton6" value="Mostrar calculos">
+	<input type="button" id="boton7" value="Ocultar calculos">
+</div>
+<div id="calculos">
+	<button id="boton3">Promediar notas</button>
+	<button id="boton4">Menor nota</button>
+	<button id="boton5">Mayor nota</button>
+</div>
+</div>
+<div id="tabla">
+	<p id="p1"></p>
+</div>
+<script src="js/effects.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
