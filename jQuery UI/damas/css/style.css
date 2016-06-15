@@ -1,0 +1,79 @@
+body{
+	background-color: black;
+}
+#juego{
+	width: 80%;
+	height: 420px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: gray;
+	border-radius: 29px 29px 29px 29px;
+}
+#cronometro{
+	float: right;
+	margin-top: 3%;
+	margin-right: 10%;
+}
+.tiempo{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 18%;
+}
+#tablero {
+	margin-left: 7%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor:pointer;
+}    
+td {
+    width: 30px;
+    height: 30px;
+}
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+    background-color: rgba(76,76,76,1);
+}
+tr:nth-child(odd) td:nth-child(odd), tr:nth-child(even) td:nth-child(even){
+    background-color: rgba(255,175,75,1);
+}
+.rojo{
+	width: 90%;
+	height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
+	border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+}
+.azul{
+	width: 90%;
+	height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: blue;
+	border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+}
+#deposito{
+	clear: both;
+	display: none; 
+	font-family: Arial;
+	width:75%; 
+	height:80px;
+	margin-top: 10px;
+	margin-left: 12%;
+	background-color: rgba(255,175,75,1); 
+}
+#textoDepo{
+	display: none;
+	margin-top: 10px;
+	padding: 32px;
+	text-align: center;
+}
