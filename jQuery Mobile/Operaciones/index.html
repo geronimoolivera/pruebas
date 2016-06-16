@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport"  content="width = device-width, initial-scale=1" charset="utf-8">
+    
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/jquery.mobile-1.4.5.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<div data-role="page" id="pagina1">
+    <div data-role="header">  
+        <h1>Operaciones</h1>
+    </div>
+    <div data-role="content">
+        <form>
+            <a onclick="cambiarPagina('paginaSuma')" class="ui-btn">Suma</a>
+            <a onclick="cambiarPagina('paginaResta')" class="ui-btn">Resta</a>
+            <a onclick="cambiarPagina('paginaMultiplicacion')" class="ui-btn">Multiplicación</a>
+            <a onclick="cambiarPagina('paginaDivision')" class="ui-btn">División</a>
+        </form>
+    </div>
+    <div data-role="footer">
+        <p align="center">Training jQuery Mobile</p>
+    </div>
+</div>
+<div data-role="page" id="paginaSuma">
+    <div data-role="header">
+        <h1>Suma</h1>
+    </div>
+    <div data-role="content">
+        <form>
+            <div class="ui-field-contain">
+                <label for="numero1S">Numero 1:</label>
+                <input type="text" name="numero1S" id="numero1S">
+                <label for="numero2S">Numero 2:</label>
+                <input type="text" name="numero2S" id="numero2S">
+            </div>
+            <a id="boton1" class="ui-btn">Sumar</a>
+            <a onclick="cambiarPagina('pagina1')" class="ui-btn">Volver</a>
+        </form>
+    </div>
+    <div data-role="footer">
+        <p align="center">Training jQuery Mobile</p>
+    </div>
+</div>
+<div data-role="page" id="paginaResta">
+    <div data-role="header">
+        <h1>Resta</h1>
+    </div>
+    <div data-role="content">
+        <form>
+            <div class="ui-field-contain">
+                <label for="numero1R">Numero 1:</label>
+                <input type="text" name="numero1R" id="numero1R">
+                <label for="numero2R">Numero 2:</label>
+                <input type="text" name="numero2R" id="numero2R">
+            </div>
+            <a id="boton2" class="ui-btn">Restar</a>
+            <a onclick="cambiarPagina('pagina1')" class="ui-btn">Volver</a>
+        </form>
+    </div>
+    <div data-role="footer">
+        <p align="center">Training jQuery Mobile</p>
+    </div>
+</div>
+<div data-role="page" id="paginaMultiplicacion">
+    <div data-role="header">
+        <h1>Multiplicación</h1>
+    </div>
+    <div data-role="content">
+        <form>
+            <div class="ui-field-contain">
+                <label for="numero1M">Numero 1:</label>
+                <input type="text" name="numero1M" id="numero1M">
+                <label for="numero2M">Numero 2:</label>
+                <input type="text" name="numero2M" id="numero2M">
+            </div>
+            <a id="boton3" class="ui-btn">Multiplicar</a>
+            <a onclick="cambiarPagina('pagina1')" class="ui-btn">Volver</a>
+        </form>
+    </div>
+    <div data-role="footer">
+        <p align="center">Training jQuery Mobile</p>
+    </div>
+</div>
+<div data-role="page" id="paginaDivision">
+    <div data-role="header">
+        <h1>División</h1>
+    </div>
+    <div data-role="content">
+        <form>
+            <div class="ui-field-contain">
+                <label for="numero1D">Numero 1:</label>
+                <input type="text" name="numero1D" id="numero1D">
+                <label for="numero2D">Numero 2:</label>
+                <input type="text" name="numero2D" id="numero2D">
+            </div>
+            <a id="boton4" class="ui-btn">Dividir</a>
+            <a onclick="cambiarPagina('pagina1')" class="ui-btn">Volver</a>
+        </form>
+    </div>
+    <div data-role="footer">
+        <p align="center">Training jQuery Mobile</p>
+    </div>
+</div>
+</body>
+</html>
