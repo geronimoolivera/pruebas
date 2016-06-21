@@ -1,0 +1,14 @@
+#divMapaRegistro {
+	width: 100%;
+	height: 450px;
+	padding: 0;
+}
+#divMapa {
+    width: 100%;
+    height: 400px;
+    padding: 0;
+}
+#paginaRegistrarPunto, #paginaBusqueda{
+	width: 100%;
+	height: 100%;
+}
